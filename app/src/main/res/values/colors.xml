@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standart Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFC300</color>
+    <color name="semiYellow">#F9E79F</color>
+
+    <!-- For primary parts-->
+    <color name="colorPrimary">#2baf2b</color>
+    <color name="colorPrimaryDark">#259b24</color>
+    <color name="colorAccent">#259b24</color>
+    <color name="backgroudFragment">#FFFFFF</color>
+
+
+    <!-- For indicator-->
+    <color name="gradientStart">#2baf2b</color>
+    <color name="gradientEnd">#2baf2b</color>
+
+    <!-- For tab and text-->
+    <color name="tabIndicator">#c0c0c0</color>
+    <color name="IntroTitle">#000000</color>
+    <color name="IntroDescription">#656565</color>
+
+    <!-- For RangeBar-->
+    <color name="indigo500">#3f51b5</color>
+    <color name="colorPrimaryDark2">#303F9F</color>
+    <color name="divider">#1f000000</color>
+    <color name="accent">#ff2d6f</color>
+
+    <!-- For Budget Seekbar-->
+    <color name="five_percent_transparency_white">#0Dffffff</color>
+    <color name="ten_percent_transparency_white">#1Affffff</color>
+    <color name="twenty_percent_transparency_white">#33ffffff</color>
+    <color name="thirty_percent_transparency_white">#4Dffffff</color>
+    <color name="fifty_percent_transparency_white">#80ffffff</color>
+    <color name="sixty_percent_transparency_white">#99ffffff</color>
+    <color name="seventy_percent_transparency_white">#B3ffffff</color>
+    <color name="eighty_percent_transparency_white">#CCffffff</color>
+    <color name="ninty_percent_transparency_white">#E6ffffff</color>
+    <color name="ninty_five_percent_transparency_white">#F2ffffff</color>
+
+    <color name="fifty_percent_transparency_primary">#8003A9F4</color>
+    <color name="fifty_percent_transparency_darker_primary_dark">#80028bca</color>
+
+</resources>

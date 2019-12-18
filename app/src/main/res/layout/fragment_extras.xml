@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroudFragment"
+        android:orientation="vertical">
+
+        <lib.kingja.switchbutton.SwitchMultiButton
+            android:id="@+id/switch2"
+            android:layout_width="290dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="96dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:selectedColor="@color/green_400"
+            app:selectedTab="0"
+            app:strokeRadius="25dp"
+            app:strokeWidth="2dp"
+            app:textSize="15sp" />
+
+        <com.github.florent37.androidslidr.Slidr
+            android:id="@+id/slidr"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="280dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:slidr_region_leftColor="#4CAF50"
+            app:slidr_regions_centerText="false" />
+
+        <RadioButton
+            android:id="@+id/results_button"
+            android:layout_width="86dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="324dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/button_gradient_style"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:onClick="rbResult"
+            android:text="@string/result"
+            android:textColor="#fafafa"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/slidr" />
+
+        <TextView
+            android:id="@+id/budgetString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/butce"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/slidr"
+            app:layout_constraintStart_toStartOf="@+id/slidr"
+            app:layout_constraintTop_toBottomOf="@+id/switch2"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

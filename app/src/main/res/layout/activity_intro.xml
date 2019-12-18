@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ActivityIntro">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/screenViewpager"
+        android:layout_width="410dp"
+        android:layout_height="690dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:background="?android:attr/panelBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/introIndicator"
+        android:layout_width="160dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenViewpager"
+        app:layout_constraintVertical_bias="1.0"
+        app:tabBackground="@drawable/intro_indicator_selector"
+        app:tabIndicatorHeight="0dp" />
+
+    <Button
+        android:id="@+id/buttonBasla"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_gradient_style"
+        android:text="@string/start"
+        android:textColor="#fff"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/introIndicator"
+        app:layout_constraintEnd_toEndOf="@+id/introIndicator"
+        app:layout_constraintStart_toStartOf="@+id/introIndicator"
+        app:layout_constraintTop_toTopOf="@+id/introIndicator" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

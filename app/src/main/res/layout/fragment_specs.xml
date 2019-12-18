@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudFragment"
+    android:orientation="vertical">
+
+
+    <!-- Power -->
+    <RadioGroup
+        android:id="@+id/rgPower"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/guc"
+            android:layout_width="43dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="6dp"
+            android:text="@string/guc"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/level1_guc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonTicked"
+            android:text="@string/bisiklet" />
+
+        <RadioButton
+            android:id="@+id/level2_guc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonTicked"
+            android:text="@string/araba" />
+
+        <RadioButton
+            android:id="@+id/level3_guc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonTicked"
+            android:text="@string/roket" />
+
+    </RadioGroup>
+
+    <!-- Camera -->
+    <RadioGroup
+        android:id="@+id/rgCamera"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/kamera"
+            android:layout_width="87dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="6dp"
+            android:text="@string/kamera"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/level1_kamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonTicked"
+            android:text="@string/tost_makinesi" />
+
+        <RadioButton
+            android:id="@+id/level2_kamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonTicked"
+            android:text="@string/standart" />
+
+        <RadioButton
+            android:id="@+id/level3_kamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonTicked"
+            android:text="@string/dslr" />
+
+    </RadioGroup>
+
+    <!-- Batery -->
+    <RadioGroup
+        android:id="@+id/rgBattery"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/pil"
+            android:layout_marginStart="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pil"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/level1_pil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kumanda_pili" />
+
+        <RadioButton
+            android:id="@+id/level2_pil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/standart" />
+
+        <RadioButton
+            android:id="@+id/level3_pil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/powerbank" />
+
+    </RadioGroup>
+
+    <!-- Screen Quality -->
+    <RadioGroup
+        android:id="@+id/rgScreenQ"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/ekranKalitesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ekran_kalitesi"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/level1_ek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/biraz_bulanik" />
+
+        <RadioButton
+            android:id="@+id/level2_ek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guzel_gorunuyor" />
+
+        <RadioButton
+            android:id="@+id/level3_ek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cam_gibi" />
+
+    </RadioGroup>
+
+    <!-- Screen Size -->
+    <RadioGroup
+        android:id="@+id/rgScreenSize"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/ekranBoyutu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ekran_boyutu"
+            android:layout_marginStart="6dp"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/level1_eb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mini_mini" />
+
+        <RadioButton
+            android:id="@+id/level2_eb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orta_halli" />
+
+        <RadioButton
+            android:id="@+id/level3_eb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/koca_eller_icin" />
+
+    </RadioGroup>
+
+    <!-- Storage -->
+    <RadioGroup
+        android:id="@+id/rgStorage"
+        android:layout_width="175dp"
+        android:layout_height="140dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:id="@+id/depolama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/depolama_alan"
+            android:layout_marginStart="6dp"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/level1_depo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sadece_uygulamalar"
+            android:onClick="onRadioButtonTicked"/>
+
+        <RadioButton
+            android:id="@+id/level2_depo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bos_yerim_var"
+            android:onClick="onRadioButtonTicked"/>
+
+        <RadioButton
+            android:id="@+id/level3_depo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonTicked"
+            android:text="@string/_4k_videolarim_var" />
+
+    </RadioGroup>
+
+</GridLayout>

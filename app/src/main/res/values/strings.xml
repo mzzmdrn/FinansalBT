@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CepteOneri</string>
+    <string name="start">Start</string>
+    <string name="todo">TODO</string>
+    <string name="bisiklet">Bisiklet</string>
+    <string name="araba">Araba</string>
+    <string name="roket">Roket</string>
+    <string name="guc">Güç</string>
+    <string name="kamera">Kamera</string>
+    <string name="tost_makinesi">Tost Makinesi</string>
+    <string name="standart">Standart</string>
+    <string name="dslr">DSLR Kamera</string>
+    <string name="baslayalim">Başlayalım</string>
+    <string name="pil">Pil</string>
+    <string name="ekran_kalitesi">Ekran Kalitesi</string>
+    <string name="kumanda_pili">Kumanda Pili</string>
+    <string name="powerbank">Powerbank</string>
+    <string name="cam_gibi">Cam gibi</string>
+    <string name="guzel_gorunuyor">Güzel görünüyor</string>
+    <string name="biraz_bulanik">Biraz bulanık</string>
+    <string name="ekran_boyutu">Ekran Boyutu</string>
+    <string name="mini_mini">Mini mini</string>
+    <string name="orta_halli">Orta halli</string>
+    <string name="koca_eller_icin">Koca eller için</string>
+    <string name="depolama_alan">Depolama Alanı</string>
+    <string name="sadece_uygulamalar">Sadece uygulamalar</string>
+    <string name="_4k_videolarim_var">4K videolarım var</string>
+    <string name="bos_yerim_var">Boş yerim var</string>
+    <string name="distributor">Distribütör</string>
+    <string name="ithalatci">İthalatçı</string>
+    <string name="butce">Bütçe</string>
+    <string name="result">Result</string>
+    <string name="brands">Brands</string>
+    <string name="budget">budget</string>
+    <string name="phoneName">phoneName</string>
+</resources>
